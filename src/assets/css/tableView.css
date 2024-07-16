@@ -1,0 +1,122 @@
+.list-title{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    height: 11vh;
+    width: 100%;
+}
+
+.list-title .title-text{
+    height: 5vh;
+    border-bottom: solid 1px lightslategray;
+}
+
+.list-title .title-text span{
+    font-size: 2em;
+    color: lightslategray;
+    font-weight: bold;
+}
+
+.list-title .list-select{
+    height: 6vh;
+    padding-top: 1vh;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.list-title .list-select .list-select-with-input{
+    width: 50vw;
+    height: 2.5em;
+    margin-right: 1vw;
+    max-width: 600px;
+}
+
+/*查询模块左侧select区域样式*/
+.list-title .list-select .list-select-with-input .select-with-input{
+    width: 8vw;
+    border-radius: 0.2em;
+}
+
+.list-title .list-select .list-select-with-input .select-with-input span{
+    color: #fff;
+    /*color: #ffd04b;*/
+}
+
+.list-title .list-select .list-select-with-input .select-with-input .el-select__wrapper{
+    background-color: #555c64;
+}
+
+/*修改箭头按钮*/
+.select-with-input .el-select__caret{
+    color: #fff;
+}
+
+/*修改下拉框样式*/
+.select-with-input-dropdown{
+    background-color: #888d93;
+}
+
+.select-with-input-dropdown .is-hovering{
+    background-color: #555c64;
+}
+
+.select-with-input-dropdown .is-selected span{
+    color: #ffd04b;
+}
+
+.select-with-input-dropdown span{
+    color: #fff;
+}
+
+/*查询模块右侧按钮区域样式*/
+.select-with-input-button{
+    background-color: #888d93 !important;
+}
+
+.select-with-input-button:hover {
+    background-color: #555c64 !important;
+}
+
+.select-with-input-button i{
+    color: #fff;
+}
+
+.select-with-input-button:hover i{
+    color: #ffd04b;
+}
+
+/*按钮区样式*/
+.list-button{
+    height: 4.5vh;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.list-button-primary-button{
+    color: white;
+    background-color: #888d93;
+
+}
+
+.list-button-primary-button:hover {
+    color: #ffd04b;
+    background-color: #555c64;
+}
+
+/*表*/
+.table-primary-button{
+    color: white;
+    background-color: #888d93;
+}
+
+.table-primary-button:hover {
+    color: #ffd04b;
+    background-color: #555c64;
+}
+
+.table-nominal-button:hover{
+    color: black;
+    background-color: #eee;
+}

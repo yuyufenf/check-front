@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-size: 16px;
+}
+
+a{
+    outline: none;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.common-layout{
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+}
+
+/*头部栏样式*/
+.con-header{
+    display: flex;
+    height: 10vh;
+    background: #393d49;
+    padding: 0;
+}
+
+.con-header .title{
+    display: flex;
+    width: 15vw;
+}
+
+.con-header .title .logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 4vw;
+}
+
+.con-header .title .logo .icon{
+    color: lightslategray;
+    font-size: 3.8em;
+}
+
+.con-header .title .title-text{
+    display: flex;
+    align-content: center;
+    flex: 1;
+}
+
+.con-header .title .title-text span{
+    user-select: none;
+    margin-left: 0.5vw;
+    color: lightslategray;
+    font-size: 2.5em;
+    font-weight: bold;
+}
+
+.con-header .user-info{
+    display: flex;
+    justify-content: flex-end;
+    flex: 1;
+}
+
+.con-header .user-info .admin{
+    display: flex;
+    color: #ffffff;
+    font-size: 1.1em;
+}
+
+.con-header .user-info .admin .info{
+    user-select: none;
+    padding-right: 1vw;
+    height: 6vh;
+    line-height: 6vh;
+    text-align: center;
+}
+
+.con-header .user-info .admin .info .icon{
+    margin-left: 0.5vw;
+    color: #ff5722;
+    font-size: 1em;
+}
+
+.con-header .user-info .admin .exit{
+    width: 5vw;
+    height: 6vh;
+    line-height: 6vh;
+    text-align: center;
+    background: #555c64;
+    cursor: pointer;
+}
+
+/*侧边栏样式*/
+.con-aside{
+    width: 13vw;
+    background: #545c64;
+}
+
+.con-aside .el-menu{
+    background-color: #545c64;
+    text-color: #fff;
+    active-text-color: #ffd04b
+}
+
+.con-footer{
+    background: #888888;
+}
+
+.con-main{
+    display: flex;
+    flex-direction: column;
+}
